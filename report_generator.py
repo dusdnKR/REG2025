@@ -17,7 +17,8 @@ from transformers import AutoProcessor, LlavaForConditionalGeneration, AutoModel
 
 from reg_dataset import REGDataset, ResultDataset, ChallengeDataset
 from report_evaluator import ScoreEvaluator
-MODEL_BASE_DIR = "/home/hanjh/longitudinal_llm/"
+# MODEL_BASE_DIR = "/home/hanjh/longitudinal_llm/"
+MODEL_BASE_DIR = ""
 
 sys.path.append(os.path.join(MODEL_BASE_DIR, "finetuning/LLaVA"))
 
